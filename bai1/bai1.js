@@ -11,9 +11,9 @@ function myFunction1(){
     row += "<td>"+id+"</td>";
     row += "<td>"+a+"</td>";
     row += "<td>"+b+"</td>";
-    row += "<td>"+c+"</td>";
+    row += "<td>$"+c+"</td>";
     row += "<td>"+d+"</td>";
-    row += "<td>"+e+"</td>";
+    row += "<td>$"+e+"</td>";
     row += "</tr>";
     document.getElementById('tbody').innerHTML +=row;
 }
